@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+
+
+.swiper {
+    
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .swiper-pagination-bullet{
+    background-color: darken(v.$blanco, 30%);
+    opacity: .6;
+  }
+
+  .swiper-pagination-bullet-active{
+    background-color: darken(v.$primario, 20%);
+  }
+
+}
